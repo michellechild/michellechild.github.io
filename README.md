@@ -1,2 +1,0 @@
-# michellechild.github.io
-portfolio
