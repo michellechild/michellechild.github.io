@@ -15,9 +15,9 @@
     <div class="content-wrapper">
       <nav class="nav-primary nav-on-scroll">
         <ul class="menu">
-          <li><a href="" class="nav-primary__button nav-primary__link hide" ><img src="assets/img/icon/caret/left/caret-left-white.svg" alt="" class="previous-arrow">Previous</a></li>
+          <li><a href="" class="nav-primary__button nav-primary__link hide" ><img src="assets/img/icon/caret/left/caret-left-white.svg" alt="" class="icon--left">Previous</a></li>
           <li><a href="index.html" class="nav-primary__link">Michelle Child</a></li>
-          <li><a href="" class="nav-primary__button nav-primary__link">Next<img src="assets/img/icon/caret/right/caret-right-white.svg" class="next-arrow"></a></li>
+          <li><a href="" class="nav-primary__button nav-primary__link">Next<img src="assets/img/icon/caret/right/caret-right-white.svg" class="icon--right"></a></li>
         </ul>
       </nav>
       <div id="acceptxPro">
@@ -32,7 +32,7 @@
               <p><span class="dropcap__text">ccepTx Pro</span> is a software that helps orthodontists present treatment and fees to their patients.</p>
               <p>When the development team was ready to integrate a payment portal into the application, I saw this a great opportunity to look at the treatment and payment plan process as a whole and redesign the experience from a user perspective.</p>
               <p>I've started with a summary of the project. Read on to see the details, including before and after screens.</p>
-              <p><a href="/assets/caseStudies/payment-portal-integration.zip">Download the InVision prototype (16 MB)</a>.</p>
+              <p><a href="assets/caseStudies/payment-portal-integration.zip"><span class="icon--left icon-download"></span>Download the InVision prototype (16 MB)</a></p>
             </div>
             <div class="small-12 cell inset">
               <h2 class="ap-steps__headline">The Issues</h2>
@@ -293,160 +293,162 @@
                   </div>
                 </li>
               </ul>
+            </div>
+          </div>
+          <div class="grid-x grid-padding-x ap-steps">
+            <div class="small-12 large-6 cell ap-steps__container">
+              <h2 class="ap-steps__headline">Step 4 of 5: Before</h2>
+              <div class="js-slick js-slick-dark">
+                <div><img src="assets/img/ap/apStep3-1Before.png" alt="Proceed to OrthoBanc" class="ap-steps__image"></div>
+                <div><img src="assets/img/ap/apStep3-2Before.png" class="ap-steps__image" alt="OrthoBanc Bank Account Screen"></div>
+                <div><img src="assets/img/ap/apStep3-3Before.png" alt="OrthoBanc Credit Card Screen" class="ap-steps__image"></div>
+                <div><img src="assets/img/ap/apStep3-4Before.png" alt="OrthoBanc Secondary Payment Method Screen" class="ap-steps__image"></div>
+              </div>
+              <ul class="menu">
+                <li class="ap-steps__item">
+                  <div class="grid-x grid-margin-x">
+                    <div class="shrink cell">
+                      <span class="icon icon-step-one"></span>
+                    </div>
+                    <div class="cell auto">
+                      <h3>Payment portal in OrthoBanc</h3>
+                      <p>This step is where the development team does the bulk of their work - integrating the payment portal into AccepTx Pro, rather than directing the user from AccepTx Pro to OrthoBanc to add their payment method(s).</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="ap-steps__item">
+                  <div class="grid-x grid-margin-x">
+                    <div class="shrink cell">
+                      <span class="icon icon-step-two"></span>
+                    </div>
+                    <div class="cell auto">
+                      <h3>Which payment type will be used?</h3>
+                      <p>The Bank Account and Credit Card tabs (screens 2-4) could easily cause confusion - should the user type in both methods? If so, which would be used first?</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="ap-steps__item">
+                  <div class="grid-x grid-margin-x">
+                    <div class="shrink cell">
+                      <span class="icon icon-step-three"></span>
+                    </div>
+                    <div class="cell auto">
+                      <h3>What is the secondary payment method?</h3>
+                      <p>This payment method caused confusion even among the team - when was this used? was it required? We needed questions answered to address this in the redesign.</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="small-12 large-6 cell ap-steps__container">
+              <h2 class="ap-steps__headline">Step 4 of 5: After</h2>
+              <div class="js-slick">
+                <div><img src="assets/img/ap/apStep3-1After.png" alt="AccepTx Pro Bank Account Screen" class="ap-steps__image"></div>
+                <div><img src="assets/img/ap/apStep3-2After.png" alt="AccepTx Pro Credit Card Screen"></div>
+                <div><img src="assets/img/ap/apStep3-3After.png" alt="AccepTx Pro Primary Method Completed Screen"></div>
+                <div><img src="assets/img/ap/apStep3-4After.png" alt="AccepTx Pro Secondary Payment Method Open Bank Account Screen"></div>
+                <div><img src="assets/img/ap/apStep3-5After.png" alt="AccepTx Pro Secondary Payment Method Open Credit Card Screen"></div>
+                <div><img src="assets/img/ap/apStep3-6After.png" alt="AccepTx Pro Primary and Secondary Payment Methods Completed Screen"></div>
+              </div>
+              <ul class="menu">
+                <li class="ap-steps__item">
+                  <div class="grid-x grid-margin-x">
+                    <div class="shrink cell">
+                      <span class="icon icon-pen"></span>
+                    </div>
+                    <div class="cell auto">
+                      <h3>Spelling it out</h3>
+                      <p>No user wants to an unexpected bill on their bank statement. Clearly stating "You will be charged ... on ..." prevents those unpleasant surprises.</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="ap-steps__item">
+                  <div class="grid-x grid-margin-x">
+                    <div class="shrink cell">
+                      <span class="icon icon-radio-button"></span>
+                    </div>
+                    <div class="cell auto">
+                      <h3>Radio Buttons</h3>
+                      <p>Radio buttons are used to show that the user must choose to pay by bank account <i>or</i> credit card - they cannot input both types of payment.</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="ap-steps__item">
+                  <div class="grid-x grid-margin-x">
+                    <div class="shrink cell">
+                      <span class="icon icon-ap-tooltip"></span>
+                    </div>
+                    <div class="cell auto">
+                      <h3>Using visuals to explain 'secondary'</h3>
+                      <p>In this version, the secondary payment method option has 'optional' added to the title and has a tooltip that provides more details to eliminate confusion. It also has less visual weight, showing it's less important than its surroundings.</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="grid-x grid-padding-x ap-steps">
+            <div class="small-12 large-6 cell ap-steps__container">
+              <h2 class="ap-steps__headline">Step 5 of 5: Before</h2>
+              <img src="assets/img/ap/apStep5Before.png" alt="Step 5 Before" class="ap-steps__image">
+              <ul class="menu">
+                <li class="ap-steps__item ap-steps__item--no-dots">
+                  <div class="grid-x grid-margin-x">
+                    <div class="shrink cell">
+                      <span class="icon icon-step-one"></span>
+                    </div>
+                    <div class="cell auto">
+                      <h3>Why show PDFs?</h3>
+                      <p>Like in Step 2, this step requires the user to sign forms - but they must leave the app to sign them.</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="ap-steps__item">
+                  <div class="grid-x grid-margin-x">
+                    <div class="shrink cell">
+                      <span class="icon icon-step-two"></span>
+                    </div>
+                    <div class="cell auto">
+                        <h3>Understated primary action</h3>
+                        <p>Again, the most important information takes up the least amount of space.</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="small-12 large-6 cell ap-steps__container">
+              <h2 class="ap-steps__headline">Step 5 of 5: After</h2>
+              <div class="js-slick">
+                  <div><img src="assets/img/ap/apStep5-1After.png" alt="Step 5 After" class="ap-steps__image"></div>
+                  <div><img src="assets/img/ap/apStep5-2After.png" alt="Step 5 After" class="ap-steps__image"></div>
+              </div>
+              <ul class="menu">
+                <li class="ap-steps__item">
+                  <div class="grid-x grid-margin-x">
+                    <div class="shrink cell">
+                      <span class="icon icon-form"></span>
+                    </div>
+                    <div class="cell auto">
+                      <h3>Restructured form section</h3>
+                      <p>Like in Step 2, by removing the form preview iframe, the screen maintains focus. However, no functionality was lost - the user is still able to view, download and print forms from this screen.</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="ap-steps__item">
+                  <div class="grid-x grid-margin-x">
+                    <div class="shrink cell">
+                      <span class="icon icon-check-green"></span>
+                    </div>
+                    <div class="cell auto">
+                      <h3>Congratulations!</h3>
+                      <p>In large text and lots of white space, the user is congratulated on a completed payment process!</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-        <div class="grid-x grid-padding-x ap-steps">
-          <div class="small-12 large-6 cell ap-steps__container">
-            <h2 class="ap-steps__headline">Step 4 of 5: Before</h2>
-            <div class="js-slick js-slick-dark">
-              <div><img src="assets/img/ap/apStep3-1Before.png" alt="Proceed to OrthoBanc" class="ap-steps__image"></div>
-              <div><img src="assets/img/ap/apStep3-2Before.png" class="ap-steps__image" alt="OrthoBanc Bank Account Screen"></div>
-              <div><img src="assets/img/ap/apStep3-3Before.png" alt="OrthoBanc Credit Card Screen" class="ap-steps__image"></div>
-              <div><img src="assets/img/ap/apStep3-4Before.png" alt="OrthoBanc Secondary Payment Method Screen" class="ap-steps__image"></div>
-            </div>
-            <ul class="menu">
-              <li class="ap-steps__item">
-                <div class="grid-x grid-margin-x">
-                  <div class="shrink cell">
-                    <span class="icon icon-step-one"></span>
-                  </div>
-                  <div class="cell auto">
-                    <h3>Payment portal in OrthoBanc</h3>
-                    <p>This step is where the development team does the bulk of their work - integrating the payment portal into AccepTx Pro, rather than directing the user from AccepTx Pro to OrthoBanc to add their payment method(s).</p>
-                  </div>
-                </div>
-              </li>
-              <li class="ap-steps__item">
-                <div class="grid-x grid-margin-x">
-                  <div class="shrink cell">
-                    <span class="icon icon-step-two"></span>
-                  </div>
-                  <div class="cell auto">
-                    <h3>Which payment type will be used?</h3>
-                    <p>The Bank Account and Credit Card tabs (screens 2-4) could easily cause confusion - should the user type in both methods? If so, which would be used first?</p>
-                  </div>
-                </div>
-              </li>
-              <li class="ap-steps__item">
-                <div class="grid-x grid-margin-x">
-                  <div class="shrink cell">
-                    <span class="icon icon-step-three"></span>
-                  </div>
-                  <div class="cell auto">
-                    <h3>What is the secondary payment method?</h3>
-                    <p>This payment method caused confusion even among the team - when was this used? was it required? We needed questions answered to address this in the redesign.</p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div class="small-12 large-6 cell ap-steps__container">
-            <h2 class="ap-steps__headline">Step 4 of 5: After</h2>
-            <div class="js-slick">
-              <div><img src="assets/img/ap/apStep3-1After.png" alt="AccepTx Pro Bank Account Screen" class="ap-steps__image"></div>
-              <div><img src="assets/img/ap/apStep3-2After.png" alt="AccepTx Pro Credit Card Screen"></div>
-              <div><img src="assets/img/ap/apStep3-3After.png" alt="AccepTx Pro Primary Method Completed Screen"></div>
-              <div><img src="assets/img/ap/apStep3-4After.png" alt="AccepTx Pro Secondary Payment Method Open Bank Account Screen"></div>
-              <div><img src="assets/img/ap/apStep3-5After.png" alt="AccepTx Pro Secondary Payment Method Open Credit Card Screen"></div>
-              <div><img src="assets/img/ap/apStep3-6After.png" alt="AccepTx Pro Primary and Secondary Payment Methods Completed Screen"></div>
-            </div>
-            <ul class="menu">
-              <li class="ap-steps__item">
-                <div class="grid-x grid-margin-x">
-                  <div class="shrink cell">
-                    <span class="icon icon-pen"></span>
-                  </div>
-                  <div class="cell auto">
-                    <h3>Spelling it out</h3>
-                    <p>No user wants to an unexpected bill on their bank statement. Clearly stating "You will be charged ... on ..." prevents those unpleasant surprises.</p>
-                  </div>
-                </div>
-              </li>
-              <li class="ap-steps__item">
-                <div class="grid-x grid-margin-x">
-                  <div class="shrink cell">
-                    <span class="icon icon-radio-button"></span>
-                  </div>
-                  <div class="cell auto">
-                    <h3>Radio Buttons</h3>
-                    <p>Radio buttons are used to show that the user must choose to pay by bank account <i>or</i> credit card - they cannot input both types of payment.</p>
-                  </div>
-                </div>
-              </li>
-              <li class="ap-steps__item">
-                <div class="grid-x grid-margin-x">
-                  <div class="shrink cell">
-                    <span class="icon icon-ap-tooltip"></span>
-                  </div>
-                  <div class="cell auto">
-                    <h3>Using visuals to explain 'secondary'</h3>
-                    <p>In this version, the secondary payment method option has 'optional' added to the title and has a tooltip that provides more details to eliminate confusion. It also has less visual weight, showing it's less important than its surroundings.</p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-        </div>
-        <div class="grid-x grid-padding-x ap-steps">
-          <div class="small-12 large-6 cell ap-steps__container">
-            <h2 class="ap-steps__headline">Step 5 of 5: Before</h2>
-            <img src="assets/img/ap/apStep5Before.png" alt="Step 5 Before">
-            <ul class="menu">
-              <li class="ap-steps__item ap-steps__item--no-dots">
-                <div class="grid-x grid-margin-x">
-                  <div class="shrink cell">
-                    <span class="icon icon-step-one"></span>
-                  </div>
-                  <div class="cell auto">
-                    <h3>Why show PDFs?</h3>
-                    <p>Like in Step 2, this step requires the user to sign forms - but they must leave the app to sign them.</p>
-                  </div>
-                </div>
-              </li>
-              <li class="ap-steps__item">
-                <div class="grid-x grid-margin-x">
-                  <div class="shrink cell">
-                    <span class="icon icon-step-two"></span>
-                  </div>
-                  <div class="cell auto">
-                      <h3>Understated primary action</h3>
-                      <p>Again, the most important information takes up the least amount of space.</p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div class="small-12 large-6 cell ap-steps__container">
-            <h2 class="ap-steps__headline">Step 5 of 5: After</h2>
-            <div class="js-slick">
-                <div><img src="assets/img/ap/apStep5-1After.png" alt="Step 5 After"></div>
-                <div><img src="assets/img/ap/apStep5-2After.png" alt="Step 5 After"></div>
-            </div>
-            <ul class="menu">
-              <li class="ap-steps__item">
-                <div class="grid-x grid-margin-x">
-                  <div class="shrink cell">
-                    <span class="icon icon-form"></span>
-                  </div>
-                  <div class="cell auto">
-                    <h3>Restructured form section</h3>
-                    <p>Like in Step 2, by removing the form preview iframe, the screen maintains focus. However, no functionality was lost - the user is still able to view, download and print forms from this screen.</p>
-                  </div>
-                </div>
-              </li>
-              <li class="ap-steps__item">
-                <div class="grid-x grid-margin-x">
-                  <div class="shrink cell">
-                    <span class="icon icon-check-green"></span>
-                  </div>
-                  <div class="cell auto">
-                    <h3>Congratulations!</h3>
-                    <p>In large text and lots of white space, the user is congratulated on a completed payment process!</p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-        </div>
-      </div>
       </div>
       
     </div>
