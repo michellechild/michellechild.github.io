@@ -3,5 +3,5 @@ module.exports = [{
       options: {"plugins":[]},
     },{
       plugin: require('../node_modules/gatsby-plugin-web-font-loader/gatsby-browser.js'),
-      options: {"plugins":[],"typekit":{}},
+      options: {"plugins":[],"typekit":{"id":"way6vmv"}},
     }]
