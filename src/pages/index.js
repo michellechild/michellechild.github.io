@@ -3,11 +3,6 @@ import "../styles/styles.scss"
 import logo from "../images/m_logo.svg"
 
 // styles
-const docLink = {
-  text: "Documentation",
-  url: "https://www.gatsbyjs.com/docs/",
-  color: "#8954A8",
-}
 
 // data
 const links = [
@@ -60,10 +55,12 @@ const links = [
 const IndexPage = () => {
   return (
     <div className="container">
-      <img src={logo} alt="M"  className="mb-3" />
-      <section className="hero block">
-          <h1 className="title is-2 has-text-primary ">Hi! I’m Michelle, a web designer with 7+ years of experience. I enjoy spending my hours knee deep in CSS designing modular, clean, hopefully understandable & reusable code.</h1>
-          <p className="is-family-sans-serif is-size-4 has-text-weight-semibold">I am the Director of Design at <a href="https://www.crew2030.org" className="has-text-link">Crew2030</a>, a fantastic tech nonprofit that offers a customizable online platform + community designed to amplify social movements and education programs.</p>
+      <img src={logo} alt="M"  className="mb-5" />
+      <section className="hero">
+          <h1 className="title is-1 has-text-primary"><span className="name-style px-2 has-background-primary-light">Hi! I’m Michelle.</span></h1>
+          <p className="is-size-5 mb-2 is-family-sans-serif has-text-weight-bold has-text-grey">product designer | ux developer</p>
+          <h2 className="subtitle is-size-3">I am currently the <span className="has-text-weight-bold">Director of Design</span> at <a className="is-link" href="https://www.crew2030.org" target="_blank">Crew2030</a>. My role is to imagine and design intuitive user experiences across our platform with a clean, reusable code structure. </h2>
+          <h2 className="subtitle is-size-3 mb-3">Like writing with your favorite pen, my goal is to design tools that make your work a more joyful experience.</h2>
       </section>
     </div>
   )

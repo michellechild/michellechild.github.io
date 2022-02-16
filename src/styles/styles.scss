@@ -2,7 +2,6 @@
 // If need, change your variables before importing Bulma
 $title-color: #ff0000;
 // Set your brand colors
-$green: #05BC72;
 $blue: #4FB0E1;
 $pink: #FA7C91;
 $beige-light: #D0D1CD;
@@ -11,22 +10,30 @@ $grey-light: #f2f3f4;
 
 
 // Update Bulma's global variables
-$family-sans-serif: 'nunito', sans-serif;
-$family-primary: 'freight-text-pro', serif;
-$primary: $green;
+$family-serif: 'freight-text-pro', serif;
+$family-sans-serif: 'source-sans-pro', sans-serif;
+$family-primary: $family-serif;
 $link: $blue;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
 
+@import "~bulma/bulma.sass";
+
 // Update some of Bulma's component variables
-$body-background-color: $grey-light;
+$body-background-color:  $white;
 $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
 
-@import "~bulma/bulma.sass";
-
 
 .container {
-  padding: 4rem 4rem 0; 
+  padding: 4rem 4rem 0;
+}
+
+.title {
+  color: $black-ter;
+}
+
+.name-style {
+  border-radius: $radius;
 }
