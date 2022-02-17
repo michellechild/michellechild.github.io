@@ -6,7 +6,6 @@ $blue: #4FB0E1;
 $pink: #FA7C91;
 $beige-light: #D0D1CD;
 $beige-lighter: #EFF0EB;
-$grey-light: #f2f3f4;
 
 
 // Update Bulma's global variables
@@ -36,4 +35,18 @@ $input-shadow: none;
 
 .name-style {
   border-radius: $radius;
+}
+
+html {
+  height: 100%;
+}
+
+.content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  flex-shrink: 0;
 }

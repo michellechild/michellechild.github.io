@@ -21,12 +21,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
  // styles
-
-const docLink = {
-  text: "Documentation",
-  url: "https://www.gatsbyjs.com/docs/",
-  color: "#8954A8"
-}; // data
+// data
 
 const links = [{
   text: "Tutorial",
@@ -67,17 +62,26 @@ const IndexPage = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
     src: _images_m_logo_svg__WEBPACK_IMPORTED_MODULE_2__["default"],
     alt: "M",
-    className: "mb-3"
+    className: "mb-5"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
-    className: "hero block"
+    className: "hero"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
-    className: "title is-2 has-text-primary "
-  }, "Hi! I\u2019m Michelle, a web designer with 7+ years of experience. I enjoy spending my hours knee deep in CSS designing modular, clean, hopefully understandable & reusable code."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "is-family-sans-serif is-size-4 has-text-weight-semibold"
-  }, "I am the Director of Design at ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    className: "title is-1 has-text-primary"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "name-style px-2 has-background-primary-light"
+  }, "Hi! I\u2019m Michelle.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "is-size-5 mb-2 is-family-sans-serif has-text-weight-bold has-text-grey-light"
+  }, "product designer | ux developer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
+    className: "subtitle is-size-3"
+  }, "As the ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "has-text-weight-bold"
+  }, "Director of Design"), " at ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    className: "is-link",
     href: "https://www.crew2030.org",
-    className: "has-text-link"
-  }, "Crew2030"), ", a fantastic tech nonprofit that offers a customizable online platform + community designed to amplify social movements and education programs.")));
+    target: "_blank"
+  }, "Crew2030"), ", I lead the design and  intuitive user experiences across our platform with a clean, reusable code structure. "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
+    className: "subtitle is-size-3 mb-3"
+  }, "Like writing with your favorite pen, my goal is to design tools that make your work a more joyful experience.")));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (IndexPage);
