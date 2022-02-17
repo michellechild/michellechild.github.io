@@ -50,3 +50,12 @@ html {
 .footer {
   flex-shrink: 0;
 }
+
+.simile {
+  @extend .has-text-weight-semibold;
+  @extend .is-family-sans-serif;
+  @extend .has-text-info;
+  @extend .has-background-info-light;
+  vertical-align: middle;
+  font-style: italic;
+}
