@@ -2,6 +2,30 @@ exports.id = "component---src-pages-index-js";
 exports.ids = ["component---src-pages-index-js"];
 exports.modules = {
 
+/***/ "./src/components/layout.js":
+/*!**********************************!*\
+  !*** ./src/components/layout.js ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ Layout)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+function Layout({
+  children
+}) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    class: "content"
+  }, children));
+}
+
+/***/ }),
+
 /***/ "./src/pages/index.js":
 /*!****************************!*\
   !*** ./src/pages/index.js ***!
@@ -15,73 +39,43 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/styles.scss */ "./src/styles/styles.scss");
-/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_styles_scss__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _images_m_logo_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/m_logo.svg */ "./src/images/m_logo.svg");
+/* harmony import */ var _components_layout_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/layout.js */ "./src/components/layout.js");
+/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/styles.scss */ "./src/styles/styles.scss");
+/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_styles_scss__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _images_m_logo_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/m_logo.svg */ "./src/images/m_logo.svg");
+
 
 
  // styles
-// data
-
-const links = [{
-  text: "Tutorial",
-  url: "https://www.gatsbyjs.com/docs/tutorial/",
-  description: "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
-  color: "#E95800"
-}, {
-  text: "How to Guides",
-  url: "https://www.gatsbyjs.com/docs/how-to/",
-  description: "Practical step-by-step guides to help you achieve a specific goal. Most useful when you're trying to get something done.",
-  color: "#1099A8"
-}, {
-  text: "Reference Guides",
-  url: "https://www.gatsbyjs.com/docs/reference/",
-  description: "Nitty-gritty technical descriptions of how Gatsby works. Most useful when you need detailed information about Gatsby's APIs.",
-  color: "#BC027F"
-}, {
-  text: "Conceptual Guides",
-  url: "https://www.gatsbyjs.com/docs/conceptual/",
-  description: "Big-picture explanations of higher-level Gatsby concepts. Most useful for building understanding of a particular topic.",
-  color: "#0D96F2"
-}, {
-  text: "Plugin Library",
-  url: "https://www.gatsbyjs.com/plugins",
-  description: "Add functionality and customize your Gatsby site or app with thousands of plugins built by our amazing developer community.",
-  color: "#8EB814"
-}, {
-  text: "Build and Host",
-  url: "https://www.gatsbyjs.com/cloud",
-  badge: true,
-  description: "Now you’re ready to show the world! Give your Gatsby site superpowers: Build and host on Gatsby Cloud. Get started for free!",
-  color: "#663399"
-}]; // markup
+// markup
 
 const IndexPage = () => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_layout_js__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    src: _images_m_logo_svg__WEBPACK_IMPORTED_MODULE_2__["default"],
+    src: _images_m_logo_svg__WEBPACK_IMPORTED_MODULE_3__["default"],
     alt: "M",
-    className: "mb-5"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
-    className: "hero"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
+    className: "mb-3"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
     className: "title is-1 has-text-primary"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
     className: "name-style px-2 has-background-primary-light"
   }, "Hi! I\u2019m Michelle.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "is-size-5 mb-2 is-family-sans-serif has-text-weight-bold has-text-grey-light"
-  }, "product designer | ux developer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
-    className: "subtitle is-size-3"
-  }, "As the ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "is-size-5 mb-2 is-family-sans-serif has-text-weight-semibold has-text-grey-light"
+  }, "product designer | developer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
+    className: "is-size-3"
+  }, "I aim to design tools that make your work a more joyful experience. ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "is-size-6 px-1 has-text-weight-semibold has-text-info"
+  }, "(like writing with your favorite pen)")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
+    className: "is-size-3"
+  }, "I'm currently the ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
     className: "has-text-weight-bold"
   }, "Director of Design"), " at ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     className: "is-link",
     href: "https://www.crew2030.org",
+    rel: "noreferrer",
     target: "_blank"
-  }, "Crew2030"), ", I lead the design and  intuitive user experiences across our platform with a clean, reusable code structure. "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
-    className: "subtitle is-size-3 mb-3"
-  }, "Like writing with your favorite pen, my goal is to design tools that make your work a more joyful experience.")));
+  }, "Crew2030"), ". My role is to imagine and design intuitive user experiences across the Crew Platform with a clean, reusable code structure."))));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (IndexPage);
