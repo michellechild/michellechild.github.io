@@ -58,24 +58,22 @@ const IndexPage = () => {
     className: "mb-3"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
     className: "title is-1 has-text-primary"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: "name-style px-2 has-background-primary-light"
-  }, "Hi! I\u2019m Michelle.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "is-size-5 mb-2 is-family-sans-serif has-text-weight-semibold has-text-grey-light"
-  }, "product designer | developer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
+  }, "Hi! I\u2019m Michelle"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "subtitle is-size-3"
+  }, "I aim to design joyful software. ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "simile is-size-6 px-1"
+  }, "like writing with your favorite pen \u270D\uD83C\uDFFC")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     className: "is-size-3"
-  }, "I aim to design tools that make your work a more joyful experience. ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: "is-size-6 px-1 has-text-weight-semibold has-text-info"
-  }, "(like writing with your favorite pen)")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
-    className: "is-size-3"
-  }, "I'm currently the ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+  }, "I currently serve as the ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
     className: "has-text-weight-bold"
-  }, "Director of Design"), " at ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+  }, "Director of Design"), " and ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "has-text-weight-bold"
+  }, "Co Founder"), " of ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     className: "is-link",
     href: "https://www.crew2030.org",
     rel: "noreferrer",
     target: "_blank"
-  }, "Crew2030"), ". My role is to imagine and design intuitive user experiences across the Crew Platform with a clean, reusable code structure."))));
+  }, "Crew2030"), ", a tech nonprofit and white label community platform for over 75 member organizations, each doing their part for a better world."))));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (IndexPage);
