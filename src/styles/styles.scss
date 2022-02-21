@@ -24,6 +24,22 @@ $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
 
+.container {
+ opacity: 0;
+ visibility: hidden;
+ transition: opacity 250ms ease-out,
+    visibility 250ms ease-out;
+}
+
+.wf-active {
+ .container {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 250ms ease-out,
+     visibility 250ms ease-out;
+ }
+}
+
 
 .container {
   padding: 4rem 4rem 0;
