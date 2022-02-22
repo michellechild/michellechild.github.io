@@ -1,4 +1,7 @@
 @charset "utf-8";
+@import "~bulma/sass/utilities/initial-variables";
+@import "~bulma/sass/utilities/functions";
+
 // If need, change your variables before importing Bulma
 $title-color: #ff0000;
 // Set your brand colors
@@ -12,7 +15,6 @@ $beige-lighter: #EFF0EB;
 $family-serif: 'freight-text-pro', serif;
 $family-sans-serif: 'source-sans-pro', sans-serif;
 $family-primary: $family-serif;
-$link: $blue;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
 
@@ -57,6 +59,10 @@ html {
   height: 100%;
 }
 
+body {
+  line-height: 1.4;
+}
+
 .content {
   height: 100%;
   display: flex;
@@ -67,11 +73,14 @@ html {
   flex-shrink: 0;
 }
 
+.is-size-3 {
+  line-height: 1.2;
+}
+
 .simile {
   @extend .has-text-weight-semibold;
   @extend .is-family-sans-serif;
-  @extend .has-text-info;
-  @extend .has-background-info-light;
-  vertical-align: middle;
+  color: $grey-light;
+  display: block;
   font-style: italic;
 }
