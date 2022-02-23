@@ -8,8 +8,8 @@ module.exports = {
   plugins: [
     "gatsby-plugin-sass",
     "gatsby-plugin-image",
-    "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp",
+    // "gatsby-plugin-sharp",
+    // "gatsby-transformer-sharp",
     "gatsby-plugin-gatsby-cloud",
     {
     resolve: 'gatsby-source-filesystem',
